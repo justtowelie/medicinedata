@@ -1,0 +1,20 @@
+{
+  "name": "medicinesdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open:cypress": "node_modules\\.bin\\cypress open",
+    "test:headless": "npx cypress run --browser chrome",
+    "test:headed": "npx cypress run --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cypress": "^8.0.0",
+    "mocha": "^9.0.2",
+    "mochawesome": "^6.2.2"
+  }
+}

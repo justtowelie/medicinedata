@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-25T10:56:24.126Z",
+    "end": "2021-07-25T10:56:39.396Z",
+    "duration": 15270,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7b8576a8-72a8-4129-9f04-b447ed5453aa",
+      "title": "",
+      "fullFile": "cypress/integration/tests/DataGrab.js",
+      "file": "cypress/integration/tests/DataGrab.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ea7c4d7e-f775-411c-8aea-d10e281c17da",
+          "title": "Grab information on 1, 3 and last company",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "obtain the data",
+              "fullTitle": "Grab information on 1, 3 and last company obtain the data",
+              "timedOut": null,
+              "duration": 13801,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#onetrust-accept-btn-handler').click();\nhomePage.selectLeftOrRight();\nhomePage.clickBAndExtract(); // homePage.clickCAndExtract();\n// homePage.clickDAndExtract();\n// homePage.clickEAndExtract();\n// homePage.clickFAndExtract();\n// homePage.clickGAndExtract();\n// homePage.clickHAndExtract();\n// homePage.clickIAndExtract();\n// homePage.clickJAndExtract();\n// homePage.clickKAndExtract();\n// homePage.clickLAndExtract();\n// homePage.clickMAndExtract();\n// homePage.clickNAndExtract();\n// homePage.clickOAndExtract();\n// homePage.clickPAndExtract();\n// homePage.clickQAndExtract();\n// homePage.clickRAndExtract();\n// homePage.clickSAndExtract();\n// homePage.clickTAndExtract();\n// homePage.clickUAndExtract();\n// homePage.clickVAndExtract();\n// homePage.clickWAndExtract();\n// homePage.clickZAndExtract();",
+              "err": {},
+              "uuid": "c52189cb-e10d-463a-be8c-4649a4ad9247",
+              "parentUUID": "ea7c4d7e-f775-411c-8aea-d10e281c17da",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c52189cb-e10d-463a-be8c-4649a4ad9247"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13801,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
